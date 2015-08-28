@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'Parade Snoop';
+    src: url('../fonts/parade_snoop-webfont.eot');
+    src: url('../fonts/parade_snoop-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/parade_snoop-webfont.woff2') format('woff2'),
+    url('../fonts/parade_snoop-webfont.woff') format('woff'),
+    url('../fonts/parade_snoop-webfont.ttf') format('truetype'),
+    url('../fonts/parade_snoop-webfont.svg#parade_lift_snoop') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'apercubold';
+    src: url('../fonts/apercu_bold-webfont.eot');
+    src: url('../fonts/apercu_bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/apercu_bold-webfont.woff2') format('woff2'),
+    url('../fonts/apercu_bold-webfont.woff') format('woff'),
+    url('../fonts/apercu_bold-webfont.ttf') format('truetype'),
+    url('../fonts/apercu_bold-webfont.svg#apercubold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media(min-width: 1500px){
+    #title{
+        font-size:50px;
+    }
+    .clock{
+        zoom: 1.35;
+        -moz-transform: scale(1.35);
+    }
+    #date{
+        font-size: 70px;
+    }
+
+    .logoPlacement{
+        margin-left:13.5%
+    }
+    .icon,.cac{
+        width:2.5em;
+    }
+
+    .logos{
+        width:18em;
+    }
+
+    .logos1{
+        width:6em;
+    }
+    #nissan{
+        width:15em;
+    }
+    #uclarec{
+        width:12em;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) and (max-width: 1499px) {
+    #title{
+        font-size:80px;
+    }
+    .clock{
+        zoom: 1.1;
+        -moz-transform: scale(1.1);
+    }
+    #date{
+        font-size: 40px;
+    }
+    #tag-line{
+        font-size:35px;
+    }
+    .logoPlacement{
+        margin-left:9%
+    }
+    .icon,.cac{
+        width:2.5em;
+    }
+
+    .logos{
+        width:15em;
+    }
+
+    .logos1{
+        width:6em;
+    }
+    #nissan, #chobani{
+        width:23em;
+    }
+    #uclarec{
+        width:12em;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 800px) and (max-width: 1199px) {
+    #title{
+        font-size:40px;
+    }
+    .clock {
+        zoom: .8;
+        -moz-transform: scale(.8);
+    }
+    #date{
+        font-size:30px;
+    }
+    .logoPlacement{
+        margin-left:30%
+    }
+    .logoPlacement2{
+        margin-left:25%
+    }
+    .icon,.cac{
+        width:2em;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 800px) {
+    #title{
+        font-size:40px;
+    }
+    .clock{
+        zoom: .6;
+        -moz-transform: scale(.6);
+    }
+    #date {
+        font-size: 30px;
+    }
+    .logoPlacement{
+        margin-left:18%
+    }
+    .logoPlacement2{
+        margin-left:19%
+    }
+    .icon,.cac{
+        width:2em;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    #title{
+        font-size:30px;
+    }
+    .clock {
+        zoom: .5;
+        -moz-transform: scale(.6);
+    }
+    .flip {
+        zoom: 1.03
+    }
+    #date {
+        font-size:30px;
+    }
+    #tag-line {
+        font-size: 25px;
+    }
+    .logoPlacement{
+        margin-left:14%
+    }
+    .icon,.cac{
+        width:2em;
+    }
+}
+
+.images{
+    position: absolute;
+    cursor: pointer;
+}
+
+.clickable{
+    cursor:pointer;
+}
+
+body,html{
+    margin:0;
+    height:100%;
+}
+
+.main{
+    background:linear-gradient(rgba(145, 216, 239,.8),rgba(255,250,250,.8),rgba(246, 238, 27,.8));
+    background: -webkit-linear-gradient(rgba(145, 216, 239,.8),rgba(255,250,250,.8),rgba(246, 238, 27,.8)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(145, 216, 239,.8),rgba(255,250,250,.8),rgba(246, 238, 27,.8)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(145, 216, 239,.8),rgba(255,250,250,.8),rgba(246, 238, 27,.8)); /* For Firefox 3.6 to 15 */
+    background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(145, 216, 239,.8)),color-stop(50%,rgba(255,250,250,.8)), color-stop(100%, rgba(246, 238, 27,.8)));
+    font-family:"Parade Snoop", sans-serif !important;
+    color:black;
+    position:relative;
+    overflow-x: hidden;
+}
+
+#x{
+    position:absolute;
+    font-size:40px;
+    cursor:pointer;
+    display:block;
+    margin-bottom:10px;
+}
+
+
+.sm-buffer{
+    height:10px;
+    width:100%;
+
+}
+
+.large-buffer{
+    height:58px;
+    width:100%;
+}
+
+.md-buffer{
+    height:30px;
+    width:100%;
+}
+
+.bar{
+    height:20px;
+    width:100%;
+    background-color:black;
+}
+
+
+.temp-buffer{
+    height:625px;
+    width: 100%;
+}
+
+.sm-temp-buffer{
+    height:250px;
+    width: 100%;
+}
+
+#social-media {
+    height: 100px;
+    width: 100%;
+    padding: 3%;
+    margin-top:1%;
+    box-sizing:border-box;
+}
+
+.icon{
+    position:relative;
+}
+
+.cac{
+    float:right;
+}
+
+#date{
+    text-align:center !important;
+}
+
+#tag-line{
+    text-align: center !important;
+}
+
+#logo{
+    cursor: pointer;
+    display:block;
+    margin-top:1.5%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+
+#bbash{
+    position:absolute;
+    z-index:12;
+}
