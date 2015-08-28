@@ -95,19 +95,18 @@
 <script src="js/jquery.backstretch.min.js"></script>
 <script>
     if($(window).width()>757){
-        $('#title').on('mouseover',function(){
-            $.backstretch([
-                "1.jpg",
-                "2.jpg",
-                "3.jpg",
-                "4.jpg",
-                "5.jpg"
-            ], {
-                fade: 600,
-                duration: 2000
-            });
-            $('#title').on('mouseout',function(){$.backstretch("destroy")});
+
+        $.backstretch([
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+        ], {
+            fade: 600,
+            duration: 2000
         });
+
 
     }
 
