@@ -54,6 +54,9 @@
     #uclarec{
         width:12em;
     }
+    #larabar {
+        width:15em;
+    }
 }
 
 /* Large desktop */
@@ -114,6 +117,9 @@
     .icon,.cac{
         width:2em;
     }
+    .larabar {
+        width:8em;
+    }
 }
 
 /* Landscape phone to portrait tablet */
@@ -136,6 +142,9 @@
     }
     .icon,.cac{
         width:2em;
+    }
+    .larabar {
+        width:6em;
     }
 }
 
@@ -162,6 +171,9 @@
     }
     .icon,.cac{
         width:2em;
+    }
+    .larabar {
+        width:4em;
     }
 }
 
