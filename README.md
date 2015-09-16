@@ -1,6 +1,6 @@
 ![](http://campuseventsblog.com/wp-content/uploads/2013/09/tranparent_logo1.png)
 
-# Bruin Bash 2015
+# Enormous Activities Fair 2015
 
 Let's get the party rocking!
 
